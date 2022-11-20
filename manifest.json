@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name":"Vatsim Simplfiler",
+    "version":"0.1",
+    "description":"This extension simplifies the VATSIM File a Flight Plan form.",
+    "icons": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+
+    "content_scripts": [{
+        "matches": ["https://my.vatsim.net/pilots/flightplan"],
+        "js": ["script.js"],
+        "css": ["main.css"]
+    }]
+}
