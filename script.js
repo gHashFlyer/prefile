@@ -15,7 +15,7 @@ window.onload=function()
 {
 
 	var callsign = document.querySelector('input[name="callsign"]');
-	callsign.value = "FDX9526";
+	callsign.value = "FDX42";
 
     var flightRule = document.getElementById('flight_rules');
     flightRule.value = 'I';
